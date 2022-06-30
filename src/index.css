@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*@Layer base {
+    body {
+        @apply;
+    }
+}*/
+  
+@layer components {
+    .intent {
+        @apply uppercase absolute top-[106%] left-[50%]
+            translate-x-[-50px] transform border border-transparent rounded-b-[50px]
+            bg-sky-600 px-10 py-4;
+    }
+}
